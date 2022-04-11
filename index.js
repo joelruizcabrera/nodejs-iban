@@ -1,4 +1,4 @@
-module.exports = class IBAN {
+class IBAN {
     constructor(iban) {
         this.iban = iban
     }
@@ -6,3 +6,5 @@ module.exports = class IBAN {
         return this.iban
     }
 }
+
+module.exports.IBAN = IBAN
