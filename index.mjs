@@ -1,10 +1,5 @@
-class IBAN {
-    constructor(iban) {
-        this.iban = iban
-    }
-    validateIBAN() {
-        return this.iban
+export class IBAN {
+    validateIBAN(iban) {
+        return iban
     }
 }
-
-module.exports.IBAN = IBAN
