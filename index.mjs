@@ -5,7 +5,7 @@ export class IBAN {
     /**
      * Return true or false when the IBAN is valid or not.
      * @param iban The IBAN that has to be validated.
-     * @returns {boolean} Returns the result of the validation.
+ #    * @returns {boolean} Returns the result of the validation.
      */
     validateIBAN(iban) {
         let splittedIBAN = this.#splitIBAN(iban)
