@@ -1,6 +1,6 @@
 {
   "name": "nodejs-iban",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple NodeJS validation for IBANs (International Bank Account Number)",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   ],
   "private": false,
   "author": "Joel Schwegmann",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joelruizcabrera/nodejs-iban/issues"
