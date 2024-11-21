@@ -3,6 +3,8 @@
 
 Simple NodeJS validation for IBANs (International Bank Account Number)
 
+[View NPM Package](https://www.npmjs.com/package/nodejs-iban)
+
 
 ## Content
 
